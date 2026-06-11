@@ -1,0 +1,86 @@
+Data Model
+How-Tos
+Create Custom Objects
+Step-by-step guide to creating custom objects in Twenty.
+Custom objects let you store information unique to your business that standard objects don’t cover. For example: Projects, Products, Tickets, or Listings.
+
+Not sure if you need an object or a field?
+ See 
+Understanding Your Data Model
+ for guidance.
+
+Steps
+
+Go to 
+Settings → Data Model
+
+Click 
++ New object
+
+Fill in:
+
+Singular name
+ (e.g., “Listing”)
+
+Plural name
+ (e.g., “Listings”)
+
+Icon
+
+Description
+ (optional)
+
+Click 
+Save
+
+Your object appears in the sidebar immediately.
+
+Next: Add Fields
+
+New objects start with basic fields. Add custom fields to capture the data you need:
+
+In 
+Settings → Data Model
+, select your object
+
+Click 
++ Add Field
+
+Choose a field type, configure, and save
+
+See 
+How to Create Custom Fields
+ for details on field types and configuration.
+
+Connecting to Other Objects
+
+To link your object to People, Companies, or other objects, create a relation field. See 
+How to Create Relation Fields
+.
+
+Deactivating an Object
+
+If you no longer need an object:
+
+Go to 
+Settings → Data Model
+
+Toggle the object off
+
+The object is hidden but data is preserved. You can reactivate or permanently delete later.
+
+Related
+
+Objects
+ — standard vs custom objects
+
+Data Model FAQ
+ — common questions
+
+Was this page helpful?
+Relation Fields
+Previous
+Create Custom Fields
+Next
+⌘
+I
