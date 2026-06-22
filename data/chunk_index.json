@@ -1,0 +1,457 @@
+[
+  {
+    "text": "Standard Objects\n\nStandard objects are predefined entities in your workspace to help you get started. They’re part of a shared data model accessible to all users of Twenty. You can use them as-is, customize them or deactivate them.",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Standard Objects"
+  },
+  {
+    "text": "People\n\nThe \nPeople\n object stores your contacts. It includes contact details and interaction history, so you can see all your customer interactions in one place.",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "People"
+  },
+  {
+    "text": "Company\n\nThe \nCompanies\n object stores your business accounts. It includes details like industry, size and location. Companies connect to both \nPeople\n and \nOpportunities\n objects.",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Company"
+  },
+  {
+    "text": "Opportunities\n\nThe \nOpportunities\n object stores deal-related data. It tracks the progression of potential sales, from prospecting to closure, recording stages, deal sizes, associated account, and expected close date. You can view your sales pipeline in a kanban layout.",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Opportunities"
+  },
+  {
+    "text": "Notes\n\nThe \nNotes\n object stores free-form notes that can be attached to People, Companies, Opportunities, and other records. Use notes to capture meeting summaries, important details, or any contextual information.",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Notes"
+  },
+  {
+    "text": "Tasks\n\nThe \nTasks\n object stores to-dos and action items. Tasks can be linked to People, Companies, Opportunities, and other records. Track due dates, assignees, and completion status to stay on top of your follow-ups.",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Tasks"
+  },
+  {
+    "text": "Custom Objects\n\nCustom objects let you store information that’s unique to your organization and that standard objects can’t handle. For example, if you’re SpaceX, you may want to create a custom object for Rockets and Launches.",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Custom Objects"
+  },
+  {
+    "text": "Creating a New Custom Object\n\nTo create a new custom object:\n\nGo to Settings in the sidebar on the left.\n\nUnder Workspace, go to Data model. Here you’ll be able to see an overview of all your existing Standard and Custom objects (both active and disabled).\n\nClick on \n+ New object\n at the top. Enter the name (both singular and plural), choose an icon, and add a description for your custom object and hit Save (at the top right). Using Listing as an example of custom object, the singular would be “listing” and the plural would be “listings” along with a description like “Listings that hosts created to showcase their property.”\n\nYour custom object is now created and will appear in your sidebar. You can start adding records to it right away.",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Creating a New Custom Object"
+  },
+  {
+    "text": "Go to Settings → Data Model\n\nFind the object you want to deactivate\n\nClick the toggle to deactivate it\n\nThe object will be hidden from your workspace but data is preserved",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Go to Settings → Data Model"
+  },
+  {
+    "text": "Go to Settings → Data Model\n\nLook for deactivated objects (they’ll be grayed out)\n\nClick the toggle to reactivate it\n\nThe object and all its data will be restored",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Go to Settings → Data Model"
+  },
+  {
+    "text": "When to Create Custom Objects\n\nUnique business entities\n: Things specific to your industry or process\n\nComplex relationships\n: When you need to track connections between multiple entities\n\nScalable data\n: When you might have many instances of something",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "When to Create Custom Objects"
+  },
+  {
+    "text": "When to Use Fields Instead\n\nSimple attributes\n: Properties that describe existing objects\n\nCategories or labels\n: Ways to classify existing records\n\nSingle values\n: Information that doesn’t need its own lifecycle",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "When to Use Fields Instead"
+  },
+  {
+    "text": "Object Naming\n\nUse clear, descriptive names\n: Make it obvious what the object represents\n\nFollow conventions\n: Use singular for the object name, plural for the collection\n\nConsider your team\n: Choose names everyone will understand\n\nWas this page helpful?\nData Model\nPrevious\nFields\nNext\n⌘\nI",
+    "source": "user-guide__data-model__capabilities__objects.txt",
+    "heading": "Object Naming"
+  },
+  {
+    "text": "Data Model\nHow-Tos\nCreate Custom Fields\nStep-by-step guide to adding custom fields to any object.\nCustom fields let you capture information specific to your business. Add them to any object—standard or custom.",
+    "source": "user-guide__data-model__how-tos__create-custom-fields.txt",
+    "heading": "user-guide__data-model__how-tos__create-custom-fields"
+  },
+  {
+    "text": "Steps\n\nGo to \nSettings → Data Model\n\nSelect the object you want to add a field to\n\nClick \n+ Add Field\n\nChoose a \nfield type\n (see \nFields\n for all types)\n\nEnter the \nfield name\n and optional description\n\nConfigure field-specific settings (see below)\n\nClick \nSave\n\nQuick method:\n Click the \n+\n at the end of column headers in any table view → \nCustomize fields\n.",
+    "source": "user-guide__data-model__how-tos__create-custom-fields.txt",
+    "heading": "Steps"
+  },
+  {
+    "text": "Show the Field in Views\n\nNew fields aren’t automatically visible. To display:\n\nOpen the object’s table view\n\nClick \nOptions → Fields\n\nClick the \neye icon\n next to your field to show it\n\nDrag to reorder",
+    "source": "user-guide__data-model__how-tos__create-custom-fields.txt",
+    "heading": "Show the Field in Views"
+  },
+  {
+    "text": "For Select / Multi-Select\n\nClick \n+ Add option\n to create choices\n\nSet a \ndefault option\n if desired\n\nDrag to reorder options\n\nUse API names for imports.\n Enable \nAdvanced mode\n in Settings to see API names. See \nField Mapping\n.",
+    "source": "user-guide__data-model__how-tos__create-custom-fields.txt",
+    "heading": "For Select / Multi-Select"
+  },
+  {
+    "text": "Making a Field Unique\n\nToggle \nUnique\n to prevent duplicate values across records.\n\nIf duplicates exist (including in deleted records), you’ll get an error. Clean up duplicates first.",
+    "source": "user-guide__data-model__how-tos__create-custom-fields.txt",
+    "heading": "Making a Field Unique"
+  },
+  {
+    "text": "Setting Default Values\n\nFor Select fields, you can choose which option is pre-selected for new records. For Checkbox fields, set whether it’s checked or unchecked by default.",
+    "source": "user-guide__data-model__how-tos__create-custom-fields.txt",
+    "heading": "Setting Default Values"
+  },
+  {
+    "text": "Deactivating a Field\n\nGo to \nSettings → Data Model\n\nFind the field\n\nClick \n⋮ → Deactivate\n\nData is preserved. You can reactivate or permanently delete later.",
+    "source": "user-guide__data-model__how-tos__create-custom-fields.txt",
+    "heading": "Deactivating a Field"
+  },
+  {
+    "text": "Related\n\nFields\n — all field types explained\n\nData Model FAQ\n — common questions\n\nWas this page helpful?\nCreate Custom Objects\nPrevious\nCreate Relation Fields\nNext\n⌘\nI",
+    "source": "user-guide__data-model__how-tos__create-custom-fields.txt",
+    "heading": "Related"
+  },
+  {
+    "text": "Data Model\nHow-Tos\nCreate Custom Objects\nStep-by-step guide to creating custom objects in Twenty.\nCustom objects let you store information unique to your business that standard objects don’t cover. For example: Projects, Products, Tickets, or Listings.\n\nNot sure if you need an object or a field?\n See \nUnderstanding Your Data Model\n for guidance.",
+    "source": "user-guide__data-model__how-tos__create-custom-objects.txt",
+    "heading": "user-guide__data-model__how-tos__create-custom-objects"
+  },
+  {
+    "text": "Steps\n\nGo to \nSettings → Data Model\n\nClick \n+ New object\n\nFill in:\n\nSingular name\n (e.g., “Listing”)\n\nPlural name\n (e.g., “Listings”)\n\nIcon\n\nDescription\n (optional)\n\nClick \nSave\n\nYour object appears in the sidebar immediately.",
+    "source": "user-guide__data-model__how-tos__create-custom-objects.txt",
+    "heading": "Steps"
+  },
+  {
+    "text": "Next: Add Fields\n\nNew objects start with basic fields. Add custom fields to capture the data you need:\n\nIn \nSettings → Data Model\n, select your object\n\nClick \n+ Add Field\n\nChoose a field type, configure, and save\n\nSee \nHow to Create Custom Fields\n for details on field types and configuration.",
+    "source": "user-guide__data-model__how-tos__create-custom-objects.txt",
+    "heading": "Next: Add Fields"
+  },
+  {
+    "text": "Connecting to Other Objects\n\nTo link your object to People, Companies, or other objects, create a relation field. See \nHow to Create Relation Fields\n.",
+    "source": "user-guide__data-model__how-tos__create-custom-objects.txt",
+    "heading": "Connecting to Other Objects"
+  },
+  {
+    "text": "Deactivating an Object\n\nIf you no longer need an object:\n\nGo to \nSettings → Data Model\n\nToggle the object off\n\nThe object is hidden but data is preserved. You can reactivate or permanently delete later.",
+    "source": "user-guide__data-model__how-tos__create-custom-objects.txt",
+    "heading": "Deactivating an Object"
+  },
+  {
+    "text": "Related\n\nObjects\n — standard vs custom objects\n\nData Model FAQ\n — common questions\n\nWas this page helpful?\nRelation Fields\nPrevious\nCreate Custom Fields\nNext\n⌘\nI",
+    "source": "user-guide__data-model__how-tos__create-custom-objects.txt",
+    "heading": "Related"
+  },
+  {
+    "text": "Data Model\nHow-Tos\nCreate Relation Fields\nStep-by-step guide to connecting objects with relation fields.\nRelation fields connect records from different objects—for example, linking People to Companies.\n\nRelation names cannot be changed after creation\n (they affect the API). Plan your names carefully.",
+    "source": "user-guide__data-model__how-tos__create-relation-fields.txt",
+    "heading": "user-guide__data-model__how-tos__create-relation-fields"
+  },
+  {
+    "text": "Before You Start\n\nDecide:\n\nWhich objects are you connecting? (e.g., People → Companies)\n\nWhich is the “one” side? (e.g., Company)\n\nWhich is the “many” side? (e.g., People — many people work at one company)\n\nWhat should the field be named on each side?\n\nSee \nRelation Fields\n for relation types explained.",
+    "source": "user-guide__data-model__how-tos__create-relation-fields.txt",
+    "heading": "Before You Start"
+  },
+  {
+    "text": "Steps\n\nGo to \nSettings → Data Model\n\nSelect the object where you want the relation (typically the “many” side)\n\nClick \n+ Add Field\n\nSelect \nRelation\n as the field type\n\nChoose the \ntarget object\n\nSelect \nOne-to-Many\n or \nMany-to-One\n\nEnter field names for \nboth sides\n of the relation\n\nClick \nSave",
+    "source": "user-guide__data-model__how-tos__create-relation-fields.txt",
+    "heading": "Steps"
+  },
+  {
+    "text": "Add a Relation field\n\nTarget: \nCompanies\n\nType: \nMany-to-One\n\nField on People: \nCompany\n\nField on Companies: \nEmployees\n\nNow each Person can be linked to a Company, and each Company shows its People.",
+    "source": "user-guide__data-model__how-tos__create-relation-fields.txt",
+    "heading": "Add a Relation field"
+  },
+  {
+    "text": "Deleting a Relation\n\nGo to \nSettings → Data Model\n\nFind the relation field\n\nClick \n⋮ → Deactivate\n\nLinks are preserved but hidden. Reactivate to restore.\n\nDeleting a relation doesn’t delete records.\n Only the link between them is removed.",
+    "source": "user-guide__data-model__how-tos__create-relation-fields.txt",
+    "heading": "Deleting a Relation"
+  },
+  {
+    "text": "Related\n\nRelation Fields\n — types and limitations\n\nHow to Import Relations\n — bulk import linked records\n\nWas this page helpful?\nCreate Custom Fields\nPrevious\nCreate Many-to-Many Relations\nNext\n⌘\nI",
+    "source": "user-guide__data-model__how-tos__create-relation-fields.txt",
+    "heading": "Related"
+  },
+  {
+    "text": "What is a Data Model?\n\nA data model is the structure that defines how information is organized in your CRM. Think of it as the \nblueprint\n of your customer data — you design it once, then fill it with your actual data.",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "What is a Data Model?"
+  },
+  {
+    "text": "Objects\n\nObjects\n are the main categories of data in your CRM. Each object represents a type of thing you want to track.\n\nTwenty comes with standard objects:\n\nPeople\n — individuals (contacts, leads, partners)\n\nCompanies\n — organizations\n\nOpportunities\n — deals or sales\n\nNotes\n — attached notes on records\n\nTasks\n — to-dos linked to records\n\nYou can also create \ncustom objects\n for anything specific to your business (e.g., Projects, Subscriptions, Events).",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "Objects"
+  },
+  {
+    "text": "Fields\n\nFields\n are the properties or attributes that describe each object. They store the actual information.\n\nFor example, the \nPeople\n object has fields like:\n\nName\n\nEmail\n\nPhone\n\nJob Title\n\nCompany (a relation to the Companies object)\n\nFields have different \ntypes\n: text, number, date, select, multi-select, relation, and more. You can add custom fields to any object.",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "Fields"
+  },
+  {
+    "text": "Records\n\nRecords\n are the individual entries within an object — the actual data you create and manage.\n\nFor example:\n\n“John Smith” is a \nrecord\n in the People object\n\n“Acme Corp” is a \nrecord\n in the Companies object\n\nAn analogy:\n\nData Model Concept\nReal-World Analogy\nObjects\nSections in a book (the categories)\nFields\nColumns in a spreadsheet (the properties)\nRecords\nRows in a spreadsheet (the actual entries)\n\nYou design the data model (objects + fields) once, then create many records within that structure.",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "Records"
+  },
+  {
+    "text": "Why Customize Your Data Model?\n\nEvery business works differently. Customizing your data model means you can shape Twenty around \nyour\n processes instead of forcing yours into a rigid system.\n\nTwenty offers full flexibility:\n\nCreate as many custom objects as you need\n\nAdd unlimited custom fields\n\nThe price doesn’t change based on customization",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "Why Customize Your Data Model?"
+  },
+  {
+    "text": "1. Start with Your Core Objects\n\nIdentify the main concepts you work with. Twenty already provides:\n\nPeople\n — your contacts\n\nCompanies\n — your accounts\n\nOpportunities\n — your deals\n\nThink about what else you might need:\n\nStripe would need a \nSubscriptions\n object\n\nAirbnb would need a \nTrips\n object\n\nAn accelerator would need a \nBatches\n object",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "1. Start with Your Core Objects"
+  },
+  {
+    "text": "2. Use Fields for Variations, Not New Objects\n\nIf something is just a characteristic of an existing object, make it a \nfield\n.\n\nUse fields for:\n\nCategories and labels (e.g., \nIndustry\n for Companies)\n\nStatus values (e.g., \nStage\n for Opportunities)\n\nAttributes and properties",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "2. Use Fields for Variations, Not New Objects"
+  },
+  {
+    "text": "3. Create an Object When It Stands on Its Own\n\nIf the concept has its own lifecycle, properties, or relationships, it deserves an object.\n\nCreate an object for:\n\nProjects\n — have deadlines, owners, and tasks\n\nSubscriptions\n — connect companies, products, and invoices\n\nEvents\n — involve attendees and follow-up actions\n\nThese go beyond a single field because they carry their own data and relationships.",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "3. Create an Object When It Stands on Its Own"
+  },
+  {
+    "text": "4. Create an Object When Records Are Open-Ended\n\nIf something can be linked multiple times and you don’t know how many, use an object.\n\nBad approach:\n\nCreating fields like \nProduct 1\n, \nProduct 2\n, \nProduct 3\n…\n\nGood approach:\n\nCreate a \nProducts\n object and relate it to records. This supports one, two, or a hundred products without changing your model.",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "4. Create an Object When Records Are Open-Ended"
+  },
+  {
+    "text": "5. Keep It Simple First\n\nStart with fields. Move to new objects only when you feel the limits:\n\nToo many fields on one object\n\nRepeated records that should be separate\n\nRelationships that don’t fit neatly",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "5. Keep It Simple First"
+  },
+  {
+    "text": "Special Note on People, Companies, and Opportunities\n\nEmail and calendar sync only works with People, Companies, and Opportunities.\nThese are the only objects where you can access synchronized emails and meetings from your mailbox/calendar. We recommend using them as much as possible.\n\nBest practices:\n\nIf you need categories of People, use fields (not new objects)\n\nExample: Use a \nPerson Type\n field with values “Prospect” and “Partner” instead of creating separate objects\n\nCreate different \nviews\n to filter: one showing partners, another showing prospects\n\nIt’s okay to have fields that don’t apply to every record.\n For example, a \nReferral Link\n field on People that only applies when \nPerson Type = Partner\n. Hide this field from views where it’s not relevant.",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "Special Note on People, Companies, and Opportunities"
+  },
+  {
+    "text": "Questions to Guide Your Choice\n\nAsk yourself:\n\nIs this just a property of something I already have, or does it need its own properties?\n\nWill I ever need to track multiple of these per record, without knowing how many?\n\nDoes this concept connect to several different objects, not just one?\n\nWill it have its own lifecycle (stages, start/end dates)?\n\nIf the answer is “yes” to one or more, it’s probably time for a new object.",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "Questions to Guide Your Choice"
+  },
+  {
+    "text": "Accessing Your Data Model\n\nGo to \nSettings\n in the left sidebar\n\nClick \nData Model\n\nView all your objects (standard and custom)\n\nClick any object to see and edit its fields\n\nDon’t see Data Model in Settings?\nAccess to the data model is usually restricted to administrators. Contact your workspace admin if you need access.",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "Accessing Your Data Model"
+  },
+  {
+    "text": "Next Steps\n\nOnce you’ve planned your data model:\n\nHow to Create Custom Objects\n\nHow to Create Custom Fields\n\nHow to Create Relation Fields\n\nNeed Help?\n\nOur team can help you design and create the data model you need. Discover our \nImplementation Services\n.\nWas this page helpful?\nUser Guide\nPrevious\nObjects\nNext\n⌘\nI",
+    "source": "user-guide__data-model__overview.txt",
+    "heading": "Next Steps"
+  },
+  {
+    "text": "About Actions\n\nActions define what happens after a trigger fires. You can chain multiple actions together to build complex automations.\n\nUse the variable picker (click the \n(x+)\n icon) to browse available data from previous steps\n\nHover over any input field to see which step a variable comes from — helpful when the same field (e.g., ID) exists in multiple previous steps\n\nGive each action a descriptive name for easier maintenance",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "About Actions"
+  },
+  {
+    "text": "Create a Record\n\nAdds a new record to a selected object.\n\nConfiguration\n:\n\nSelect the target object\n\nFill out the required and optional fields\n\nUse data from previous steps or input values manually to populate fields\n\nOutput\n: The newly created record data is available for use in subsequent steps.",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Create a Record"
+  },
+  {
+    "text": "Update Record\n\nModifies an existing record in a selected object.\n\nConfiguration\n:\n\nSelect the target object\n\nChoose the specific record to update.\n\nYou can either choose a fixed record, using the drop down menu displaying all available records.\n\nOr you can have the record dynamically selected, by designating a record found in a previous step, using the \n(x+)\n. You cannot search for the record based on different criteria at this stage. If you’ve not yet identified the record, add a \nSearch Record\n step before this \nUpdate Record\n step.\n\nSelect fields to modify and enter new values\n\nOutput\n: The updated record data is available for use in subsequent steps.",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Update Record"
+  },
+  {
+    "text": "Delete Record\n\nRemoves a record from a selected object.\n\nConfiguration\n:\n\nSelect the target object\n\nChoose the specific record to delete\n\nOutput\n: The deleted record data remains available for use in subsequent steps.",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Delete Record"
+  },
+  {
+    "text": "Search Records\n\nFinds records within a selected object using filter conditions.\n\nConfiguration\n:\n\nSelect the object to search\n\nSet filter criteria to narrow results\n\nConfigure sorting and limits\n\nOutput\n: Returns matching records that can be used in subsequent steps.\n\nLimit\n: Search Records returns a maximum of \n200 records\n. If you need to process more, add specific filters to reduce results or use scheduled workflows to process in batches.\n\nBest Practice\n: Use \nbranches\n after Search Records to handle “found” vs “not found” scenarios.",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Search Records"
+  },
+  {
+    "text": "Upsert Record\n\nCreates a new record or updates an existing one based on matching criteria. This is useful when you’re not sure if a record already exists.\n\nConfiguration\n:\n\nSelect the target object\n\nNote which fields can be used for matching: email for People, domain for Companies, ID for any object, or any field marked as Unique. You’ll need to populate at least one of these below.\n\nFill out the field values. Do not forget to populate at least one of the unique identifiers.\n\nMatching usually works even better when adding only one unique identifier.\n For example, the screenshot below will match companies based on their domain. The ID is not necessarily needed.\n\nUse data from previous steps to populate fields\n\nHow it works\n:\n\nSearches for a record matching your criteria\n\nIf found → updates the existing record\n\nIf not found → creates a new record\n\nOutput\n: The created or updated record data is available for use in subsequent steps.",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Upsert Record"
+  },
+  {
+    "text": "Iterator\n\nLoops through an array of records\n returned from a previous step, allowing you to perform actions on each record individually.\n\nConfiguration\n:\n\nSelect the array of records from a previous step (e.g., results from Search Records, from a Manual trigger with Bulk availability, from a code node)\n\nDefine the actions to perform on each record in the loop.\n\nYou can add several actions within an iterator.\n\nWhen using branches inside an iterator, make sure the last step of each branch connects back to the iterator to close the loop.\n\nAccess \nCurrent Item\n Fields: to use fields from the record currently being processed, click on the \nIterator\n step, then select \nCurrent item\n. The list of available fields from that record will be displayed and can be selected for use in subsequent actions.",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Iterator"
+  },
+  {
+    "text": "Filter\n\nFilters records based on specified conditions, allowing only records that meet the criteria to pass through.\n\nConfiguration\n:\n\nSelect the record to filter\n\nDefine filter conditions and criteria\n\nConfigure which records should pass through to subsequent steps\n\nOutput\n: Filter nodes don’t return data—they act as gates. If the conditions are met, the workflow continues. If not, the workflow stops at that branch.\n\nThe \nIS\n operator can be used with numeric fields. It performs as an \nEQUAL\n.",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Filter"
+  },
+  {
+    "text": "Delay\n\nPauses workflow execution for a specified duration or until a specific date/time.\n\nDelay Types\n:\n\nType\nDescription\nDuration\nWait for a specific amount of time (days, hours, minutes, seconds)\nScheduled Date\nWait until a specific date and time\n\nConfiguration for Duration\n:\n\nSet days, hours, minutes, and/or seconds\n\nCombine multiple units (e.g., 2 days and 4 hours)\n\nConfiguration for Scheduled Date\n:\n\nSelect a date and time\n\nCan reference a date field from a previous step (e.g., follow up 3 days after a meeting)\n\nUse cases\n:\n\nWait 24 hours before sending a follow-up email\n\nPause until an opportunity’s close date\n\nSchedule actions for business hours\n\nThe scheduled date cannot be in the past. If a date field from a previous step is used and the date has already passed, the workflow will fail.\n\nLimits & Credits\n:\n\nNo maximum duration limit\n—you can set delays of minutes, days, weeks, or longer\n\n1 credit consumed\n when the Delay node executes, regardless of duration\n\nNo credits consumed\n while waiting—a 5-minute delay costs the same as a 5-day delay",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Delay"
+  },
+  {
+    "text": "Send Email\n\nSends an email from your workflow. This is great for templated group emails. Emails will look like the ones you send from your mailbox.\nNot suited for newsletters (which require richer formatting) or automated email sequences.\n\nPrerequisites\n: Add an email account in Settings → Accounts\n\nConfiguration\n:\n\nSelect the sender email account\n\nYou can only send emails from mailboxes synced to your own Twenty account. Sending from other team members’ mailboxes (e.g., the account owner’s email) is on the roadmap.\n\nFor all the following steps, you can reference variables from previous steps for personalization.\n\nEnter recipient email address.\n\nOnly one recipient is possible at the moment.\n\nSet subject line.\n\nCompose message body. You can format links, create numbered list, bullet point lists, add attachments.\n\nAdding HTML signatures is not possible at the moment.\n\nForm\n\nPrompts a form during workflow execution to collect user input. The responses can then be used in subsequent steps to create records, send emails, or execute any other action based on the input.\n\nForms are designed for manual triggers only\n. For workflows with other triggers (Record Created, Updated, etc.), forms are only accessible via the workflow run interface, which is not the expected user experience. A notifications center will be released in 2026 to properly support forms in automated workflows.\n\nConfiguration\n:\n\nConfigure the fields that users will be asked to fill. For each field, choose\n\na type among text, number, date, a given record, a select field. Select fields from all objects are available.\n\na label\n\na default value under \nPlaceholder\n (optional)\n\nEdit the form title\n\nOutput\n: Form responses are available for use in subsequent steps.\n\nExample\n: The “Quick Lead” workflow is available by default in all workspaces, available anywhere in the Command Menu \nCmd + K\n.\n\nHow to fill the form\n:\n\nTrigger your manual workflow from the command menu \nCmd K\n\nFill the form that is displayed in the side panel and click \nSubmit\n.\n\nThe fields cannot be made mandatory.",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Send Email"
+  },
+  {
+    "text": "Integration Actions\n\nCode\n\nRuns custom JavaScript within your workflow.\n\nConfiguration\n:\n\nAccess variables from previous steps. You can edit the variables names dynamically.\n\nWrite JavaScript code in the editor\n\nReturn variables for use in subsequent steps\n\nTest code directly in the step\n\nIf you need to use external API keys in your code, you must input them directly in the function body. You cannot configure API keys elsewhere and reference them in the logic function.\n\nWorking with arrays?\n Arrays from external systems or previous steps may come as strings. See \nHow to handle arrays in Code actions\n for the solution.\n\nClick the square icon at the top right of the code editor to display it in full screen — helpful since the default editor width is limited.",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "Integration Actions"
+  },
+  {
+    "text": "HTTP Request\n\nSends a request to an external API as part of your workflow.\n\nConfiguration\n:\n\nEnter the API endpoint URL. Using parameters from previous steps is possible.\n\nSelect HTTP method (GET, POST, PUT, PATCH, DELETE)\n\nAdd required headers and values\n\nProvide sample response for structure preview",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "HTTP Request"
+  },
+  {
+    "text": "AI Agent - Coming Soon\n\nRuns an AI agent within your workflow to perform intelligent tasks.\n\nConfiguration\n:\n\nAgent\n: Select an existing AI agent or use the default agent\n\nPrompt\n: Write the instruction for the AI agent\n\nReference variables from previous steps in the prompt\n\nWhat AI Agents can do\n:\n\nAnalyze and summarize data\n\nClassify or categorize records\n\nGenerate text content\n\nMake decisions based on data\n\nInteract with your CRM data using tools\n\nOutput\n: The AI agent’s response is available for use in subsequent steps. If the agent has a structured output schema, the response will follow that format.\n\nAI Agent actions consume workflow credits based on the AI model used. See \nWorkflow Credits\n for details.\n\nAI agents respect role-based permissions. You can assign specific roles to agents under \nSettings → Members → Roles\n to control what data they can access. See \nPermissions\n for details.\nWas this page helpful?\nWorkflow Triggers\nPrevious\nWorkflow Branches\nNext\n⌘\nI",
+    "source": "user-guide__workflows__capabilities__workflow-actions.txt",
+    "heading": "AI Agent - Coming Soon"
+  },
+  {
+    "text": "About Triggers\n\nWorkflows always start with a single trigger that defines when the automation should run.\n\nAdvanced objects are supported!\n Beyond standard CRM objects (People, Companies, Opportunities), you can also trigger workflows and perform actions on:",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "About Triggers"
+  },
+  {
+    "text": "Calendar Events\n\nMessages (Emails)\n\nTasks, Notes, and many other system objects\n\nThis opens up powerful automations like notifying team members when calendar events are created, or processing incoming emails automatically.",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "Calendar Events"
+  },
+  {
+    "text": "Record is Created\n\nStarts the workflow when a new record is created in a selected object (People, Companies, Opportunities, or any custom object).\n\nConfiguration\n: Select the object type to monitor for new records.\n\nThis trigger is great for records created by csv, mailbox and calendar synchronization, API.\n\nIt is not recommended for records created manually\n: with this trigger, workflows start as soon as the record is created. Since Twenty UI offers auto-save on the fly (there is not an edit mode and then a validation to save records), the workflow will be triggered before the user inputs all the fields.\nTo trigger this workflow on records created manually, it is recommended to use the trigger \nRecord is created or updated\n instead.",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "Record is Created"
+  },
+  {
+    "text": "Record is Updated\n\nStarts the workflow when changes are made to an existing record.\n\nConfiguration\n:\n\nSelect the object type\n\nOptionally specify which fields to monitor for changes",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "Record is Updated"
+  },
+  {
+    "text": "Record is Updated or Created\n\nStarts the workflow when a record is either created or updated in a selected object.\n\nWhy This Matters\n: This trigger is particularly helpful because records created via different methods behave differently:\n\nAPI/CSV imports\n: Records are created with all fields populated immediately\n\nManual creation\n: Records are created first, then fields are added in subsequent updates\n\nConfiguration\n:\n\nSelect the object type to monitor\n\nOptionally specify which fields to monitor for changes\n\nThe workflow will trigger both on initial creation and any subsequent updates",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "Record is Updated or Created"
+  },
+  {
+    "text": "Record is Deleted\n\nStarts the workflow when a record is removed from an object.\n\nConfiguration\n: Select the object type to monitor for deletions.",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "Record is Deleted"
+  },
+  {
+    "text": "Manual Trigger\n\nStarts the workflow when triggered by a user action. This trigger can be accessed through the \nCmd+K\n menu or via a custom button that will be displayed in the top navbar after selecting record(s).\n\nAvailability Configuration\n:\nChoose how the workflow should handle record selection:\n\nGlobal\n: No record is required to trigger this workflow. The workflow is triggered from the command menu \nCmd + K\n anywhere (from any object) and does not use record(s) as input.\n\nSingle\n: The selected record(s) will be passed to your workflow. This is configured for a given object. Several records can be selected before triggering the workflow. The workflow will run from beginning to end as many times as there are records selected.\n\nSoft limit: 100 runs/minute\n. Beyond this, workflows remain in “Not Started” status and are processed gradually—either by a background job or when another workflow enters the queue. This means you can select more than 100 records with a Single trigger; execution will just be slower.\n\nBulk\n: The selected record(s) will be passed to your workflow. This is configured for a given object. Several records can be selected before triggering the workflow. The workflow will run once, providing the entire list of records as input. This means the workflow needs to contain an \nIterator action\n.\n\nThis is more advanced, and best for people who want to optimize the number of workflow runs.\n\nAdditional Configuration\n:\n\nSelect the target object (for Single and Bulk availability)\n\nChoose a command icon for the workflow trigger\n\nConfigure navbar placement (Pinned or Not Pinned)\n\nAccess Methods\n:\n\nCmd+K\n menu to find and launch manual workflows\n\nCustom button in the top navbar (if configured)",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "Manual Trigger"
+  },
+  {
+    "text": "Time-Based Trigger: On a Schedule\n\nStarts the workflow on a recurring basis you define.\n\nConfiguration\n:\n\nSelect time unit (minutes, hours, days)\n\nEnter a value or use custom cron expressions for advanced scheduling\n\nTimezone\n: Scheduled workflows run in \nUTC\n. When setting hours for daily schedules, convert your local time to UTC.",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "Time-Based Trigger: On a Schedule"
+  },
+  {
+    "text": "External Trigger: Webhook\n\nStarts the workflow when a GET or POST request is received from an external service.\n\nConfiguration\n:\n\nThe workflow provides a unique webhook URL—copy this and add it to your external system as the endpoint to call.\n\nFor POST requests, define the expected body structure so Twenty knows what data to expect. Add here the fields you will receive that will be needed below in your workflow.\n\nConfigure authentication (coming soon).",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "External Trigger: Webhook"
+  },
+  {
+    "text": "Choosing the Right Trigger\n\nUse Case\nRecommended Trigger\nNew leads need processing\nRecord is Created\nData changes need sync\nRecord is Updated\nImport/manual data handling\nRecord is Updated or Created\nCleanup after deletion\nRecord is Deleted\nUser-initiated action\nLaunch Manually\nRecurring reports\nOn a Schedule\nExternal integration\nWebhook or On a Schedule\nWas this page helpful?\nWorkflows\nPrevious\nWorkflow Actions\nNext\n⌘\nI",
+    "source": "user-guide__workflows__capabilities__workflow-triggers.txt",
+    "heading": "Choosing the Right Trigger"
+  },
+  {
+    "text": "Workflows\nHow-Tos\nCRM Automations\nClosed Won Automations\nAutomate post-win activities when opportunities close.\nWhen a deal closes, multiple things need to happen: update company status, notify team members, create onboarding tasks. Automate all of this with a single workflow.",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "user-guide__workflows__how-tos__crm-automations__closed-won-automations"
+  },
+  {
+    "text": "The Problem\n\nWhen an opportunity moves to “Closed Won”:\n\nCompany type needs to change from “Prospect” to “Customer”\n\nOnboarding tasks need to be created\n\nCustomer success team needs to be notified\n\nSales rep needs confirmation\n\nDoing this manually is time-consuming and error-prone.",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "The Problem"
+  },
+  {
+    "text": "Step 2: Configure the Trigger\n\nSelect \nRecord is Updated\n\nChoose \nOpportunities\n\nUnder “Fields to monitor”, select \nStage",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Step 2: Configure the Trigger"
+  },
+  {
+    "text": "Step 3: Add Stage Filter\n\nAdd \nFilter\n action\n\nCondition: \n{{trigger.object.stage}}\n equals “Closed Won”",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Step 3: Add Stage Filter"
+  },
+  {
+    "text": "Step 4: Update Company Type\n\nAdd \nUpdate Record\n action\n\nConfigure:\n\nField\nValue\nObject\nCompanies\nRecord\n{{trigger.object.company.id}}\nType\nCustomer\nFirst Deal Date\n{{trigger.object.closedAt}}\nAccount Owner\n{{trigger.object.owner.id}}",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Step 4: Update Company Type"
+  },
+  {
+    "text": "Step 5: Create Onboarding Task\n\nAdd \nCreate Record\n action\n\nConfigure:\n\nField\nValue\nObject\nTasks\nTitle\nOnboarding: {{trigger.object.name}}\nAssignee\nCustomer Success team member\nDue Date\n3 days from now\nPriority\nHigh\nRelated Company\n{{trigger.object.company.id}}\nRelated Opportunity\n{{trigger.object.id}}\nDescription\nNew customer onboarding for {{trigger.object.company.name}}. Deal value: {{trigger.object.amount}}",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Step 5: Create Onboarding Task"
+  },
+  {
+    "text": "Step 6: Notify Customer Success\n\nAdd \nSend Email\n action\n\nConfigure:\n\nField\nValue\nTo\ncustomer-success@yourcompany.com\nSubject\n🎉 New Customer: {{trigger.object.company.name}}\nBody\nSee example below\n\nEmail body example\n:\n\nHi CS Team,\n\nWe have a new customer!\n\nCompany: {{trigger.object.company.name}}\n\nDeal: {{trigger.object.name}}\n\nValue: {{trigger.object.amount}}\n\nSales Rep: {{trigger.object.owner.name}}\n\nClose Date: {{trigger.object.closedAt}}\n\nAn onboarding task has been created automatically.\n\nLet's give them a great start!",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Step 6: Notify Customer Success"
+  },
+  {
+    "text": "Step 7: Confirm to Sales Rep\n\nAdd another \nSend Email\n action\n\nConfigure:\n\nField\nValue\nTo\n{{trigger.object.owner.email}}\nSubject\n✅ Deal Closed: {{trigger.object.name}}\nBody\nCongratulations! Your deal has been processed. The customer success team has been notified and onboarding has begun.",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Step 7: Confirm to Sales Rep"
+  },
+  {
+    "text": "Step 8: Test and Activate\n\nTest by moving a test opportunity to “Closed Won”\n\nVerify:\n\nCompany type changed to “Customer”\n\nOnboarding task created\n\nCS team received email\n\nSales rep received confirmation\n\nActivate when ready",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Step 8: Test and Activate"
+  },
+  {
+    "text": "Actions\n\nCreate Record\n: Task for “Lost Deal Analysis”\n\nUpdate Record\n: Add lost reason to company record\n\nSend Email\n: Notify manager of lost deal",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Actions"
+  },
+  {
+    "text": "Advanced: Multi-Step Onboarding\n\nFor complex onboarding, create multiple tasks:\n\nexport\n const\n main\n =\n async\n (\nparams\n) \n=>\n {\n\nconst\n tasks\n =\n [\n\n{ \ntitle:\n \"Welcome call\"\n, \ndaysFromNow:\n 1\n, \nassignee:\n \"CS\"\n },\n\n{ \ntitle:\n \"Send onboarding materials\"\n, \ndaysFromNow:\n 2\n, \nassignee:\n \"CS\"\n },\n\n{ \ntitle:\n \"Technical setup\"\n, \ndaysFromNow:\n 5\n, \nassignee:\n \"Support\"\n },\n\n{ \ntitle:\n \"30-day check-in\"\n, \ndaysFromNow:\n 30\n, \nassignee:\n \"CS\"\n }\n\n];\n\nreturn\n { \ntasks\n };\n\n};\n\nUse \nIterator\n to create each task from the array.",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Advanced: Multi-Step Onboarding"
+  },
+  {
+    "text": "Customization Ideas\n\nKeep your other tools up-to-date\n\nCreate customer in billing system with an \nHTTP Request",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Customization Ideas"
+  },
+  {
+    "text": "Conditional Actions\n\nUse \nFilter\n actions to:\n\nDifferent onboarding for enterprise vs SMB\n\nDifferent assignees based on region\n\nSkip notifications for small deals",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Conditional Actions"
+  },
+  {
+    "text": "Include Deal Details\n\nUse \nCode\n action to format:\n\nDeal summary documents\n\nHandoff notes for CS team\n\nCustom onboarding checklists\n\nRelated\n\nWorkflow Actions\n\nSend Emails from Workflows\n\nWas this page helpful?\nDisplay Related Record Data\nPrevious\nDetect Stale Opportunities\nNext\n⌘\nI",
+    "source": "user-guide__workflows__how-tos__crm-automations__closed-won-automations.txt",
+    "heading": "Include Deal Details"
+  },
+  {
+    "text": "Why Workflows Matter\n\nTwenty was built to bring maximum flexibility to its users. Rather than forcing you to adapt your business processes to rigid, pre-built features, workflows enable you to build automations that create the CRM that best supports your unique business use cases.\n\nWorkflows are Twenty’s in-app feature for building these automations. They give you the building blocks to create exactly what your business needs, when it needs it.",
+    "source": "user-guide__workflows__overview.txt",
+    "heading": "Why Workflows Matter"
+  },
+  {
+    "text": "What can I do with workflows?\n\nWe recommend building automations for two main purposes:\n\nInternal automations to facilitate your team’s day-to-day\n: Reduce the amount of manual entries and repetitive tasks that slow down your team.\n\nBring data in and out of Twenty\n: Connect Twenty via API calls and webhooks to your database and other tools.",
+    "source": "user-guide__workflows__overview.txt",
+    "heading": "What can I do with workflows?"
+  },
+  {
+    "text": "Step 1: Create a New Workflow\n\nGo to \nWorkflows\n accessible below the other objects\n\nClick \n+ New Record\n\nGive your workflow a name",
+    "source": "user-guide__workflows__overview.txt",
+    "heading": "Step 1: Create a New Workflow"
+  },
+  {
+    "text": "Step 2: Add a Trigger\n\nEvery workflow starts with a trigger. Choose from:\n\nRecord events\n: When a record is created, updated, or deleted\n\nSchedule\n: Run at specific times (daily, weekly, etc.)\n\nManual\n: Triggered by a user action\n\nWebhook\n: Triggered by a webhook",
+    "source": "user-guide__workflows__overview.txt",
+    "heading": "Step 2: Add a Trigger"
+  },
+  {
+    "text": "Step 3: Add Actions\n\nAfter your trigger, add one or more actions:\n\nCreate Record\n: Add new records to any object\n\nUpdate Record\n: Modify existing record data\n\nDelete Record\n: Remove records from objects\n\nSearch Records\n: Find records matching criteria\n\nUpsert Record\n: Create or update based on matching criteria\n\nIterator\n: Loop through arrays of records\n\nFilter\n: Control which records proceed\n\nDelay\n: Wait before continuing (duration or scheduled date)\n\nSend Email\n: Send emails via your connected account\n\nCode\n: Run custom JavaScript\n\nHTTP Request\n: Call external APIs\n\nForm\n: Get inputs from users within Twenty UI at the time of execution\n\nAI Agent\n (Coming soon): Run intelligent AI tasks",
+    "source": "user-guide__workflows__overview.txt",
+    "heading": "Step 3: Add Actions"
+  },
+  {
+    "text": "Step 4: Test and Activate\n\nUse the \nTest\n button to run your workflow with sample data\n\nReview the results to ensure it works as expected\n\nToggle the workflow \nActive\n when ready",
+    "source": "user-guide__workflows__overview.txt",
+    "heading": "Step 4: Test and Activate"
+  },
+  {
+    "text": "Workflow Best Practices\n\nEdit step names\n: Rename your workflow steps to clearly describe what each one does. This helps with maintenance and makes it easier to hand off to coworkers\n\nLeverage previous step data\n: You can use fields from records returned by any previous step in your workflow\n\nStart simple\n: Begin with basic workflows and add complexity over time as you become more comfortable with the system\n\nPlan before building\n: Map out your workflow logic before you start building to avoid getting stuck halfway through\n\nNext Steps\n\nWorkflow Triggers\n\nWorkflow Actions\n\nCRM Automations\n\nWas this page helpful?\nI Don't See Emails on Records\nPrevious\nWorkflow Triggers\nNext\n⌘\nI",
+    "source": "user-guide__workflows__overview.txt",
+    "heading": "Workflow Best Practices"
+  }
+]
